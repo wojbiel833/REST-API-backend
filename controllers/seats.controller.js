@@ -34,7 +34,7 @@ exports.addOne = async (req, res) => {
   try {
     const { name } = req.body;
     const newSeat = new Seat({ name: name });
-    await newDepartment.save();
+    await newSeat.save();
     res.json({ message: "OK" });
   } catch (err) {
     res.status(500).json({ message: err });

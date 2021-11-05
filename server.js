@@ -71,7 +71,7 @@ const NODE_ENV = process.env.NODE_ENV;
 let dbURL = "";
 
 if (NODE_ENV === "production") {
-  dbURL = `mongodb+srv://wojbiel833:${process.env.PASS_KEY}@wojbiel833.p51y7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+  dbURL = `mongodb+srv://wojbiel833:${process.env.PASS_KEY}@wojbiel833.p51y7.mongodb.net/wojbiel833?retryWrites=true&w=majority`;
   console.log("Connected to remote DataBase");
 } else if (NODE_ENV === "test") {
   dbURL = "mongodb://localhost:27017/wojbiel833test";
