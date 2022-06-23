@@ -20,7 +20,7 @@
     "mongo-sanitize": "1.0.1",
     "mongodb": "^4.1.1",
     "mongoose": "^6.0.6",
-    "nodemon": "^2.0.10",
+    "nodemon": "^2.0.17",
     "onchange": "^7.1.0",
     "snyk": "^1.715.0",
     "socket.io": "^4.1.3",
